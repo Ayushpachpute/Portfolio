@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Ayush Pachpute</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!--boxicons link-->
+    <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <header>
+        <a href="index.html" class="logo"><span>A</span>yush</a>
+
+        <ul class="navbar">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html" class="active">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+
+        </ul>
+
+        <div class="menu-btn">
+            <span>INTRO</span>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <!---------------------------------about section-------------------------------->
+    <section class="about">
+        <div class="about-container">
+            <div class="about-header">
+                <h1>About Me</h1>
+                <div class="about-title">
+                    <span>Data Analyst</span>
+                    <span>SQL | Power BI | Excel | Python</span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I am Ayush Pachpute, an aspiring Data Analyst with a strong passion for turning raw data into meaningful business insights. I enjoy exploring datasets, identifying trends, and building interactive dashboards that help organizations make data-driven decisions.</p>
+                    
+                    <p>I have hands-on experience with SQL, Power BI, Excel, and Python through multiple end-to-end analytics projects, including Netflix content analysis, Ola ride data analysis, and a Sales Insights Dashboard. My work focuses on data cleaning, visualization, and delivering clear, actionable insights.</p>
+                    
+                    <p>Along with my analytical skills, I bring strong problem-solving ability, attention to detail, and a continuous learning mindset. I am currently seeking opportunities where I can contribute to real-world business challenges while growing as a data professional.</p>
+                </div>
+
+                <div class="about-skills">
+                    <h3>Technical Skills</h3>
+                    <div class="social-icons">
+                    <a href="https://github.com/Ayushpachpute" target="_blank" class="social-link">
+                        <i class='bx bxl-github'></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/ayush-pachpute" target="_blank" class="social-link">
+                        <i class='bx bxl-linkedin'></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://www.instagram.com/ayush_p.15?igsh=cjJ4bWdkM3pjaGVw" target="_blank" class="social-link">
+                        <i class='bx bxl-instagram'></i>
+                        <span>Instagram</span>
+                    </a>
+                </div>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class='bx bx-data'></i>
+                            <span>SQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bx-bar-chart'></i>
+                            <span>Power BI</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bx-spreadsheet'></i>
+                            <span>Excel</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bxl-python'></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bx-line-chart'></i>
+                            <span>Data Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class='bx bx-pie-chart-alt-2'></i>
+                            <span>Visualization</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-cta">
+                <h3>Let's Connect</h3>
+                <p>I'm always open to discussing data analysis opportunities and collaborations.</p>
+                <div class="cta-buttons">
+                    <a href="analyst_resume.pdf" download class="btn">Download CV</a>
+                    <a href="projects.html" class="btn three">View My Work</a>
+                    <a href="contact.html" class="btn two">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            distance: "40px",
+            duration: 2500,
+            reset: true,
+        });
+        sr.reveal('.about-header', {delay:200, origin: 'top'});
+        sr.reveal('.about-text', {delay:400, origin: 'left'});
+        sr.reveal('.about-skills', {delay:600, origin: 'right'});
+        sr.reveal('.about-cta', {delay:800, origin: 'bottom'});
+    </script>
+</body>
+</html>
